@@ -11,7 +11,18 @@
     <Description>This package provides to images into the webp format.</Description>
     <Copyright>BerkCinaz 2022</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/berkcinazz/Image.To.WebP</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Image, Webp, ImageWebp, ImageToWebp</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
