@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>BerkC.ImageToWebP</PackageId>
+    <Authors>Berk Cinaz</Authors>
+    <Company>Berk Cinaz</Company>
+    <Product>ImageToWebP</Product>
+    <Description>This package provides to images into the webp format.</Description>
+    <Copyright>BerkCinaz 2022</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.2.0" />
+	</ItemGroup>
+</Project>
+
